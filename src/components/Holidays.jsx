@@ -52,7 +52,7 @@ const Holidays = () => {
     <div className="overflow-hidden" style={{ height: "calc(100vh - 60px)" }}>
       <div
         className="img-container absolute"
-        style={{ backgroundImage: "url(/tripImage.svg)" }}
+        style={{ backgroundImage: "url(/tripImage.png)" }}
       ></div>
       <div className="text-white">
         <div>
