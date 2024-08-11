@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
+::-webkit-scrollbar {
+  background-color: rgba(236, 236, 236, 0.025);
+  height: 8px;
+  width: 8px;
+  border-radius: 25px;
+  opacity: 0.5;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 213, 0, 0.333);
+  border-radius: 25px;
+  opacity: 0;
+}
+
+.img-container {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(0.5);
+  z-index: -1;
+}
+
+.img-slider {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(0.7) !important;
+}
+
+.cards {
+  padding: 0 0 18px 0;
+}
+.cards::-webkit-scrollbar {
+  background-color: rgba(255, 255, 255, 0.099);
+  height: 8px;
+  width: 8px;
+  border-radius: 25px;
+  opacity: 0;
+}
+.cards::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 213, 0, 0.333);
+  border-radius: 25px;
+  opacity: 0;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px !important;
+  height: 100% !important;
+}
+
+.swiper-slide img {
+  display: block;
+}
+
+.section-breaker::before {
+  content: "";
+  border-left-color: #48f186;
+  border-bottom-color: white;
+  border-right-color: #48f186;
+  border-top-color: transparent;
+  border-width: 20px;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.styless::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(248, 169, 65, 0.8),
+    rgba(34, 139, 34, 0.6)
+  );
+  opacity: 0.8;
+  z-index: -1;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}

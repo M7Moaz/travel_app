@@ -1,0 +1,163 @@
+{
+  "DiscoverLocation": "Discover Location",
+  "links": [
+    { "name": "Home", "url": "/" },
+    { "name": "Holidays", "url": "/holidays" },
+    { "name": "Flights", "url": "/flights" },
+    { "name": "Offers", "url": "/offers" },
+    { "name": "Contact", "url": "/contact" }
+  ],
+  "Travel": "Travel",
+  "Details": "Details",
+  "cards": [
+    {
+      "id": 1,
+      "title": "Town of Cartagena",
+      "name": "Colombia",
+      "desc": "Columbia Forest Products is North America's largest manufacturer of quality, decorative hardwood plywood and veneers for homes.",
+      "visiting": "The best place to visit with your family, not expensive, and there are good places for families.",
+      "image": "/1.png",
+      "details": {
+        "language": "The primary language is Spanish, with English being widely spoken in tourist areas.",
+        "places_of_interest": "The walled city, Castillo San Felipe de Barajas, and Rosario Islands are top attractions.",
+        "currency": "The official currency is the Colombian Peso (COP).",
+        "best_time_to_visit": "The best time to visit is between December and April when the weather is dry.",
+        "images": [
+          { "url": "/Colombia/1.png" },
+          { "url": "/Colombia/2.png" },
+          { "url": "/Colombia/3.png" },
+          { "url": "/Colombia/4.png" },
+          { "url": "/Colombia/5.png" }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "title": "Paris",
+      "name": "France",
+      "desc": "Known as the city of love, Paris is famous for its iconic landmarks, art museums, and vibrant culture.",
+      "visiting": "Paris is a must-visit for anyone who loves history, art, and culture. The city is not overly expensive if you plan wisely, and it offers many free or low-cost activities.",
+      "image": "/2.png",
+      "details": {
+        "language": "The official language is French, but English is commonly spoken in tourist areas.",
+        "places_of_interest": "Must-visit places include the Eiffel Tower, Louvre Museum, and Notre-Dame Cathedral.",
+        "currency": "The official currency is the Euro (EUR).",
+        "best_time_to_visit": "Spring (April to June) and Fall (September to November) are the best times to visit.",
+        "images": [
+          { "url": "/France/1.png" },
+          { "url": "/France/2.png" },
+          { "url": "/France/3.png" },
+          { "url": "/France/4.png" },
+          { "url": "/France/5.png" }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "title": "Tokyo",
+      "name": "Japan",
+      "desc": "A bustling metropolis, Tokyo is known for its blend of traditional temples and cutting-edge technology.",
+      "visiting": "Tokyo offers a unique mix of ancient culture and modernity. It’s perfect for those who enjoy bustling cities with endless things to see and do. Prices can vary, but there are many affordable options.",
+      "image": "/3.png",
+      "details": {
+        "language": "Japanese is the primary language, with English signage available in most tourist spots.",
+        "places_of_interest": "Top attractions include the Tokyo Tower, Meiji Shrine, and Shibuya Crossing.",
+        "currency": "The official currency is the Japanese Yen (JPY).",
+        "best_time_to_visit": "March to May and September to November are ideal for visiting.",
+        "images": [
+          { "url": "/Japan/1.png" },
+          { "url": "/Japan/2.png" },
+          { "url": "/Japan/3.png" },
+          { "url": "/Japan/4.png" },
+          { "url": "/Japan/5.png" },
+          { "url": "/Japan/6.png" }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "title": "Cape Town",
+      "name": "South Africa",
+      "desc": "A port city on South Africa’s southwest coast, Cape Town is known for its harbor, Table Mountain, and natural beauty.",
+      "visiting": "Cape Town is a beautiful destination that offers something for everyone. It’s an affordable place to visit, with plenty of outdoor activities and cultural experiences.",
+      "image": "/4.png",
+      "details": {
+        "language": "English is widely spoken, along with Afrikaans and Xhosa.",
+        "places_of_interest": "Don't miss Table Mountain, Robben Island, and the Victoria & Alfred Waterfront.",
+        "currency": "The official currency is the South African Rand (ZAR).",
+        "best_time_to_visit": "The best time to visit is from March to May and September to November.",
+        "images": [
+          { "url": "/Africa/1.png" },
+          { "url": "/Africa/2.png" },
+          { "url": "/Africa/3.png" },
+          { "url": "/Africa/4.png" },
+          { "url": "/Africa/5.png" }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "title": "Sydney",
+      "name": "Australia",
+      "desc": "Sydney is known for its Sydney Opera House, with a distinctive sail-like design, and beautiful beaches.",
+      "visiting": "Sydney is a vibrant city with a mix of natural beauty and urban sophistication. While it can be pricey, it offers experiences that are well worth the cost, especially for nature lovers.",
+      "image": "/5.png",
+      "details": {
+        "language": "English is the official language.",
+        "places_of_interest": "Iconic attractions include the Sydney Opera House, Sydney Harbour Bridge, and Bondi Beach.",
+        "currency": "The official currency is the Australian Dollar (AUD).",
+        "best_time_to_visit": "September to November and March to May are the best times to visit.",
+        "images": [
+          { "url": "/Australia/1.png" },
+          { "url": "/Australia/2.png" },
+          { "url": "/Australia/3.png" },
+          { "url": "/Australia/4.png" },
+          { "url": "/Australia/5.png" }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "title": "Dubai",
+      "name": "United Arab Emirates",
+      "desc": "Dubai is known for its ultramodern architecture, luxury shopping, and vibrant nightlife scene.",
+      "visiting": "Dubai is a destination for luxury seekers, offering world-class shopping, dining, and entertainment. Although it can be expensive, the experiences are unparalleled.",
+      "image": "/6.png",
+      "details": {
+        "language": "Arabic is the official language, but English is widely spoken.",
+        "places_of_interest": "Top sites include the Burj Khalifa, Dubai Mall, and Palm Jumeirah.",
+        "currency": "The official currency is the UAE Dirham (AED).",
+        "best_time_to_visit": "The best time to visit is from November to March when the weather is cooler.",
+        "images": [
+          { "url": "/United_Arab_Emirates/1.png" },
+          { "url": "/United_Arab_Emirates/2.png" },
+          { "url": "/United_Arab_Emirates/3.png" },
+          { "url": "/United_Arab_Emirates/4.png" },
+          { "url": "/United_Arab_Emirates/5.png" },
+          { "url": "/United_Arab_Emirates/6.png" }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "title": "Rio de Janeiro",
+      "name": "Brazil",
+      "desc": "Rio de Janeiro is known for its Copacabana and Ipanema beaches, and the 38m Christ the Redeemer statue atop Mount Corcovado.",
+      "visiting": "Rio de Janeiro is perfect for those who enjoy vibrant cultures and outdoor activities. The city is affordable and offers many attractions, especially during the Carnival season.",
+      "image": "/7.png",
+      "details": {
+        "language": "Portuguese is the official language, with English spoken in some tourist areas.",
+        "places_of_interest": "Christ the Redeemer, Sugarloaf Mountain, and the Carnival festival are must-sees.",
+        "currency": "The official currency is the Brazilian Real (BRL).",
+        "best_time_to_visit": "The best time to visit is between December and March, during summer.",
+        "images": [
+          { "url": "/Brazil/1.png" },
+          { "url": "/Brazil/2.png" },
+          { "url": "/Brazil/3.png" },
+          { "url": "/Brazil/4.png" },
+          { "url": "/Brazil/5.png" }
+        ]
+      }
+    }
+  ]
+}
